@@ -117,7 +117,8 @@
    <parameter name="regex"><![CDATA[^[A-Z_]$]]></parameter>
   </parameters>
  </check>
- <check level="warning" class="org.scalastyle.scalariform.UnderscoreImportChecker" enabled="true"></check>
+ <!--Wildcard imports are idiomatic Scala. http://stackoverflow.com/questions/5311087/wildcard-imports-usage-in-java-and-scala -->
+ <check level="warning" class="org.scalastyle.scalariform.UnderscoreImportChecker" enabled="false"></check>
  <check level="warning" class="org.scalastyle.scalariform.LowercasePatternMatchChecker" enabled="true"></check>
  <check level="warning" class="org.scalastyle.scalariform.MultipleStringLiteralsChecker" enabled="true">
   <parameters>
