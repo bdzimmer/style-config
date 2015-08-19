@@ -127,5 +127,5 @@
   </parameters>
  </check>
  <check level="warning" class="org.scalastyle.scalariform.ImportGroupingChecker" enabled="true"></check>
- <check level="warning" class="org.scalastyle.scalariform.ScalaDocChecker" enabled="true"></check>
+ <check level="warning" class="org.scalastyle.scalariform.ScalaDocChecker" enabled="false"></check>
 </scalastyle>
