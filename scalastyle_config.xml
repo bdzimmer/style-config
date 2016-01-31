@@ -8,8 +8,8 @@
  </check>
  <check level="warning" class="org.scalastyle.file.HeaderMatchesChecker" enabled="true">
   <parameters>
-   <parameter name="regex">false</parameter>
-   <parameter name="header">// Copyright (c) 2015 Ben Zimmer. All rights reserved.</parameter>
+   <parameter name="regex">true</parameter>
+   <parameter name="header">\/\/ Copyright \(c\) 201[56] Ben Zimmer\. All rights reserved\.</parameter>
   </parameters>
  </check>
  <check level="warning" class="org.scalastyle.scalariform.SpacesAfterPlusChecker" enabled="true"></check>
